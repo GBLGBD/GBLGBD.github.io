@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>SHENMIDAIMA</title>
+  
+  <subtitle>人生若只如初见</subtitle>
+  <link href="https://gblgbd.github.io/atom.xml" rel="self"/>
+  
+  <link href="https://gblgbd.github.io/"/>
+  <updated>2020-09-14T10:03:30.249Z</updated>
+  <id>https://gblgbd.github.io/</id>
+  
+  <author>
+    <name>XBY</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>firstBlog</title>
+    <link href="https://gblgbd.github.io/2020/09/14/firstBlog/"/>
+    <id>https://gblgbd.github.io/2020/09/14/firstBlog/</id>
+    <published>2020-09-14T06:10:39.000Z</published>
+    <updated>2020-09-14T10:03:30.249Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="一级"><a href="#一级" class="headerlink" title="一级"></a>一级</h1><h2 id="二级"><a href="#二级" class="headerlink" title="二级"></a>二级</h2><h3 id="三级"><a href="#三级" class="headerlink" title="三级"></a>三级</h3><h4 id="四级"><a href="#四级" class="headerlink" title="四级"></a>四级</h4><h5 id="五级"><a href="#五级" class="headerlink" title="五级"></a>五级</h5><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><hr><h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><p>段落的编写直接写，换行是两个空格加回车。<br>段落二XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。  </p><p>段落三。</p><hr><h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p><em>斜体文本</em><br><strong>粗体文本</strong><br><strong><em>粗斜体文本</em></strong></p><hr><h2 id="以下为分界线"><a href="#以下为分界线" class="headerlink" title="以下为分界线"></a>以下为分界线</h2><hr><p><del>加波浪线表示该段文字删除</del><br><u>html标签u加下划线</u></p><hr><h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><ul><li>第一项</li><li>第二项</li><li>第三项</li></ul><hr><h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><ol><li>第一项<ul><li>第一项</li><li>第二项</li></ul></li><li>第二项</li><li>第三项</li></ol><hr><h2 id="区块到底用来干啥？"><a href="#区块到底用来干啥？" class="headerlink" title="区块到底用来干啥？"></a>区块到底用来干啥？</h2><blockquote><p>区块</p></blockquote><ol><li>第一</li><li>第二<blockquote><blockquote><p>区块二</p><blockquote><p>区块三<br> 这是第三区块。</p></blockquote></blockquote></blockquote></li></ol><hr><h2 id="代码按TAB键"><a href="#代码按TAB键" class="headerlink" title="代码按TAB键"></a>代码按TAB键</h2><pre><code>public void main()&#123;    syso(&quot;java&quot;);&#125;</code></pre><hr><h2 id="链接用中括号接小括号，小括号里放网址"><a href="#链接用中括号接小括号，小括号里放网址" class="headerlink" title="链接用中括号接小括号，小括号里放网址"></a>链接用中括号接小括号，小括号里放网址</h2><p>这是一个链接<a href="https://www.runoob.com/markdown/md-link.html">Markdowm</a>。<br>直接用尖括号包含网址<a href="http://www.baidu.com/">http://www.baidu.com/</a><br>这个链接用 1 作为网址变量,都用中括号包裹 <a href="http://www.baidu.com/">baidu</a><br>这个链接用 runoob 作为网址变量 <a href="http://www.runoob.com/">Runoob</a><br>然后在文档的结尾为变量赋值（网址），用变量中括号包裹，接一个冒号，再接网址。</p><hr><h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><ol><li>使用感叹号，中括号加小括号<br><img src="http://static.runoob.com/images/runoob-logo.png" alt="runoob"></li><li>使用html_img标签<img src='http://static.runoob.com/images/runoob-logo.png' width='50%'></li></ol><hr><h2 id="表格用竖线和减号"><a href="#表格用竖线和减号" class="headerlink" title="表格用竖线和减号"></a>表格用竖线和减号</h2><p><strong>减号用来分隔表头和单元格，表格上方要空一行</strong></p><table><thead><tr><th>表头</th><th>表头二</th><th>表头</th><th>表头二</th></tr></thead><tbody><tr><td>单元格</td><td>单元格</td><td>单元格</td><td>单元格</td></tr><tr><td>单元格</td><td>单元格</td><td>单元格</td><td>单元格</td></tr></tbody></table><hr><h2 id="支持HTML元素"><a href="#支持HTML元素" class="headerlink" title="支持HTML元素"></a>支持HTML元素</h2><ol><li>转义字符<br>用反斜杠\来转义。</li><li>支持目前支持的 HTML 元素有：&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;等 </li></ol>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;一级&quot;&gt;&lt;a href=&quot;#一级&quot; class=&quot;headerlink&quot; title=&quot;一级&quot;&gt;&lt;/a&gt;一级&lt;/h1&gt;&lt;h2 id=&quot;二级&quot;&gt;&lt;a href=&quot;#二级&quot; class=&quot;headerlink&quot; title=&quot;二级&quot;&gt;&lt;/a&gt;二级&lt;/h2&gt;&lt;h3 id</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://gblgbd.github.io/2020/09/14/hello-world/"/>
+    <id>https://gblgbd.github.io/2020/09/14/hello-world/</id>
+    <published>2020-09-14T06:09:21.904Z</published>
+    <updated>2020-09-14T06:09:21.904Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
