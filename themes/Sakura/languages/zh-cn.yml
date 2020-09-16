@@ -41,6 +41,8 @@ insight:
     untitled: '(无标题)'
 
 #category
+# 分类名称：需要和theme/Sakura/_config.yaml的menus属性对应
+# 对应链接为：/categories
 技术:
     zh: 野生技术协会
     en: Geek – Only for Love

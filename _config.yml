@@ -79,19 +79,16 @@ theme: Sakura
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: 
-  	github: https://github.com/GBLGBD/GBLGBD.github.io/tree/sakura
-    # github: git@github.com:honjun/honjun.github.io.git
-    
-    # coding: https://git.coding.net/hojun/hojun.git
-  branch: sakura
+  repo: https://github.com/GBLGBD/baba # https://bitbucket.org/JohnSmith/johnsmith.bitbucket.io
+  branch: master
+  message: xby
 
 # backup
 backup:
   type: git
-  message: backup my blog of https://yourname.github.io/
-  repository:
-     github: https://github.com/GBLGBD/GBLGBD.github.io,backup
+  message: backup my blog 
+  repository: 
+     github: https://github.com/GBLGBD/baba,backup
     # coding: https://git.coding.net/hojun/hojun.git,backup
 
 #RSS
