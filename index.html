@@ -180,7 +180,7 @@
                   <i class="far fa-calendar-check"></i>
                 </span>
                 <span class="post-meta-item-text">更新于</span>
-                <time title="修改时间：2020-10-20 00:16:46" itemprop="dateModified" datetime="2020-10-20T00:16:46+08:00">2020-10-20</time>
+                <time title="修改时间：2020-10-20 00:23:05" itemprop="dateModified" datetime="2020-10-20T00:23:05+08:00">2020-10-20</time>
               </span>
 
           
@@ -199,14 +199,11 @@
 <h2 id="承载未来大画家的图展空间"><a href="#承载未来大画家的图展空间" class="headerlink" title="承载未来大画家的图展空间"></a>承载未来大画家的图展空间</h2><p>本来是chevereto的，但是找到了更好的展示本画家艺术细胞的形式，3D图片展示。这个能在一个空间里展览你的图片，但不能放大图片。<br>参考博客：<a target="_blank" rel="noopener" href="https://www.sakura521.cn/photo/">小坏孩 </a></p>
 <hr>
 <h2 id="ubuntu16的网络配置"><a href="#ubuntu16的网络配置" class="headerlink" title="ubuntu16的网络配置"></a>ubuntu16的网络配置</h2><ol>
-<li><p>防火墙关闭<br> sudu ufw disable</p>
-</li>
-<li><p>更改为静态ip<br> sudo vi /etc/network/interfaces</p>
-<h1 id="The-primary-network-interface"><a href="#The-primary-network-interface" class="headerlink" title="The primary network interface"></a>The primary network interface</h1><p> auto ens33<br> iface ens33 inet static<br> address 192.168.56.129<br> gateway 192.168.56.2<br> netmask 255.255.255.0</p>
-</li>
-<li><p>重启网络服务<br> sudo /etc/init.d/networking restart<br><img src="http://图片网址/" alt="图片名称"></p>
-</li>
+<li>防火墙关闭<br> sudo ufw disable</li>
+<li>更改为静态ip<br>sudo vi /etc/network/interfaces<br> auto ens33<br> iface ens33 inet static<br> address 192.168.56.129<br> gateway 192.168.56.2<br> netmask 255.255.255.0</li>
+<li>重启网络服务<br> sudo /etc/init.d/networking restart</li>
 </ol>
+<h2 id="ubuntu16的openssh安装"><a href="#ubuntu16的openssh安装" class="headerlink" title="ubuntu16的openssh安装"></a>ubuntu16的openssh安装</h2><p>如果不安装，xshell无法连接。<br>输入命令安装：<br>    sudo apt-get install openssh-server<br>若没有ssh，需要执行<br>    sudo apt-get install ssh</p>
 <hr>
 <h2 id="vi-命令的使用（大部分与vim相同）"><a href="#vi-命令的使用（大部分与vim相同）" class="headerlink" title="vi 命令的使用（大部分与vim相同）"></a>vi 命令的使用（大部分与vim相同）</h2><ol>
 <li>删除<br> 未编辑状态按两次d，删除一行<br> x删除光标前面，X删除光标后面<br>教程 <a target="_blank" rel="noopener" href="https://blog.csdn.net/cyl101816/article/details/82026678">vi</a></li>
