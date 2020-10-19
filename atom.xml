@@ -2,12 +2,12 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>SHENMIDAIMA</title>
   
-  <subtitle>人生若只如初见</subtitle>
-  <link href="https://gblgbd.github.io/atom.xml" rel="self"/>
+  <subtitle>人生若只如初见，程序亦能跑生活</subtitle>
+  <link href="http://shenmidaima.cn/atom.xml" rel="self"/>
   
-  <link href="https://gblgbd.github.io/"/>
-  <updated>2020-09-14T10:03:30.249Z</updated>
-  <id>https://gblgbd.github.io/</id>
+  <link href="http://shenmidaima.cn/"/>
+  <updated>2020-10-19T16:16:46.935Z</updated>
+  <id>http://shenmidaima.cn/</id>
   
   <author>
     <name>XBY</name>
@@ -17,9 +17,51 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>日记</title>
+    <link href="http://shenmidaima.cn/2020/10/19/%E6%97%A5%E8%AE%B0/"/>
+    <id>http://shenmidaima.cn/2020/10/19/%E6%97%A5%E8%AE%B0/</id>
+    <published>2020-10-19T14:45:41.000Z</published>
+    <updated>2020-10-19T16:16:46.935Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="哈哈哈我又来日记了"><a href="#哈哈哈我又来日记了" class="headerlink" title="哈哈哈我又来日记了"></a>哈哈哈我又来日记了</h1><p>昨天写了第一篇日记，感觉良好。这周要把Chevereto装到自己虚拟机里，所以用了之前安装的ubuntu16。之前都是用的centos7,命令也还记得一些，但这个ubuntu的命令又有许多不同，所以干脆写篇博客。<br><img src="http://图片网址/" alt="图片名称"></p><hr><h2 id="承载未来大画家的图展空间"><a href="#承载未来大画家的图展空间" class="headerlink" title="承载未来大画家的图展空间"></a>承载未来大画家的图展空间</h2><p>本来是chevereto的，但是找到了更好的展示本画家艺术细胞的形式，3D图片展示。这个能在一个空间里展览你的图片，但不能放大图片。<br>参考博客：<a href="https://www.sakura521.cn/photo/">小坏孩 </a></p><hr><h2 id="ubuntu16的网络配置"><a href="#ubuntu16的网络配置" class="headerlink" title="ubuntu16的网络配置"></a>ubuntu16的网络配置</h2><ol><li><p>防火墙关闭<br> sudu ufw disable</p></li><li><p>更改为静态ip<br> sudo vi /etc/network/interfaces</p><h1 id="The-primary-network-interface"><a href="#The-primary-network-interface" class="headerlink" title="The primary network interface"></a>The primary network interface</h1><p> auto ens33<br> iface ens33 inet static<br> address 192.168.56.129<br> gateway 192.168.56.2<br> netmask 255.255.255.0</p></li><li><p>重启网络服务<br> sudo /etc/init.d/networking restart<br><img src="http://图片网址/" alt="图片名称"></p></li></ol><hr><h2 id="vi-命令的使用（大部分与vim相同）"><a href="#vi-命令的使用（大部分与vim相同）" class="headerlink" title="vi 命令的使用（大部分与vim相同）"></a>vi 命令的使用（大部分与vim相同）</h2><ol><li>删除<br> 未编辑状态按两次d，删除一行<br> x删除光标前面，X删除光标后面<br>教程 <a href="https://blog.csdn.net/cyl101816/article/details/82026678">vi</a></li></ol><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;哈哈哈我又来日记了&quot;&gt;&lt;a href=&quot;#哈哈哈我又来日记了&quot; class=&quot;headerlink&quot; title=&quot;哈哈哈我又来日记了&quot;&gt;&lt;/a&gt;哈哈哈我又来日记了&lt;/h1&gt;&lt;p&gt;昨天写了第一篇日记，感觉良好。这周要把Chevereto装到自己虚拟机里，所以用了之</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>第一篇日记</title>
+    <link href="http://shenmidaima.cn/2020/10/18/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%97%A5%E8%AE%B0/"/>
+    <id>http://shenmidaima.cn/2020/10/18/%E7%AC%AC%E4%B8%80%E7%AF%87%E6%97%A5%E8%AE%B0/</id>
+    <published>2020-10-18T14:19:17.000Z</published>
+    <updated>2020-10-18T15:14:15.581Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="博客搭好却没写过什么"><a href="#博客搭好却没写过什么" class="headerlink" title="博客搭好却没写过什么"></a>博客搭好却没写过什么</h1><p>博客是九月十五号搭好的，搭好那天非常开心，也有尝试用MD格式来写写，熟悉了基本的格式，之前也有学习过一点。<br>后来就又在研究Sakura主题，看着别人搭建的博客，非常羡慕，就动手自己也尝试了一下，改各种配置，添加歌单，添加看板娘，添加评论，现在这个周末又过了，这周没有添加任何东西，可惜了。不过图集服务下周一定要实现。<br>#<img src="http://图片网址/" alt="图片名称"></p><hr><h2 id="漫无目的的浪费时间"><a href="#漫无目的的浪费时间" class="headerlink" title="漫无目的的浪费时间"></a>漫无目的的浪费时间</h2><p>自己目标不够明确，不知道自己需要什么，所以感觉对生活丧失了兴趣，又觉得生活枯燥了。用游戏打发时间，却在游戏结束后觉得索然无味，却无法停下来，放纵自己。<br>#<img src="http://图片网址/" alt="图片名称"></p><hr><h1 id="什么都想做却什么都没完成"><a href="#什么都想做却什么都没完成" class="headerlink" title="什么都想做却什么都没完成"></a>什么都想做却什么都没完成</h1><h2 id="学写博客"><a href="#学写博客" class="headerlink" title="学写博客"></a>学写博客</h2><p>也没学什么东西，也写不出什么技术类的博客，所以就只能写写日记了，不过这也算是一个好开头吧，第一篇日记，这篇日记是五六年第一篇？记得上一次写日记是小学要交的100字的日记。有关日记还能想到在培训学校有个女生说的，如果想多了解自己，去写日记吧，那一次真的是个我最蠢的记忆，废话了一堆，把自己内心和过去完完全全的暴露给别人看，然后还觉得自己特别厉害，不同于常人。那种事情永远不要 再来一次 ?想想现在的状况似乎和那时大不一样了，明天把这个事写下来吧。<br>#<img src="http://图片网址/" alt="图片名称"></p><hr><h2 id="学画画"><a href="#学画画" class="headerlink" title="学画画"></a>学画画</h2><p>各种软件装了很久，也就画过一两次。想给朋友画个永恩，迟迟没行动。就像买了书却没去看，买了乐器却没去玩，但组装了电脑却一直在玩这一台，其它的只能闲置。</p><h2 id="学PS"><a href="#学PS" class="headerlink" title="学PS"></a>学PS</h2><p>PS官网的教程国庆假学了一部分，算是入了个门，想着自己给自己处理结婚照的时候不用花钱还能为所欲为，就觉得非常爽，所以就学了个皮毛，还需把后面的教程学完。装了好几个版本的PS,各种破解安装换了好几个方式。我也没有收集软件的怪癖啊，肯定是虚荣心作祟。</p><h1 id="总结"><a href="#总结" class="headerlink" title="总结"></a>总结</h1><p>1 每天写篇博客，应该就花个半小时。<br>2 待办项<br>    * PS学习<br>    * 永恩的画<br>    * 图库</p><hr>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;博客搭好却没写过什么&quot;&gt;&lt;a href=&quot;#博客搭好却没写过什么&quot; class=&quot;headerlink&quot; title=&quot;博客搭好却没写过什么&quot;&gt;&lt;/a&gt;博客搭好却没写过什么&lt;/h1&gt;&lt;p&gt;博客是九月十五号搭好的，搭好那天非常开心，也有尝试用MD格式来写写，熟悉了基</summary>
+      
+    
+    
+    
+    
+    <category term="日记" scheme="http://shenmidaima.cn/tags/%E6%97%A5%E8%AE%B0/"/>
+    
+  </entry>
+  
+  <entry>
     <title>firstBlog</title>
-    <link href="https://gblgbd.github.io/2020/09/14/firstBlog/"/>
-    <id>https://gblgbd.github.io/2020/09/14/firstBlog/</id>
+    <link href="http://shenmidaima.cn/2020/09/14/firstBlog/"/>
+    <id>http://shenmidaima.cn/2020/09/14/firstBlog/</id>
     <published>2020-09-14T06:10:39.000Z</published>
     <updated>2020-09-14T10:03:30.249Z</updated>
     
@@ -38,8 +80,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="https://gblgbd.github.io/2020/09/14/hello-world/"/>
-    <id>https://gblgbd.github.io/2020/09/14/hello-world/</id>
+    <link href="http://shenmidaima.cn/2020/09/14/hello-world/"/>
+    <id>http://shenmidaima.cn/2020/09/14/hello-world/</id>
     <published>2020-09-14T06:09:21.904Z</published>
     <updated>2020-09-14T06:09:21.904Z</updated>
     
