@@ -1,1 +1,0 @@
-<div class="list-item-play-gif" data-action="load-image"><div></div><span></span><i></i></div>

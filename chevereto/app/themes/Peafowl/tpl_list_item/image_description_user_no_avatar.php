@@ -1,1 +1,0 @@
-<!--<a class="user user-image default-user-image" href="%IMAGE_USER_URL%"><span class="icon icon-user"></span></a>-->

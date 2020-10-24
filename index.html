@@ -17,7 +17,7 @@
 
 <script id="hexo-configurations">
     var NexT = window.NexT || {};
-    var CONFIG = {"hostname":"shenmidaima.cn","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}}};
+    var CONFIG = {"hostname":"shenmidaima.cn","root":"/","scheme":"Mist","version":"7.8.0","exturl":false,"sidebar":{"position":"right","display":"always","padding":18,"offset":12,"onmobile":false},"copycode":{"enable":false,"show_result":false,"style":null},"back2top":{"enable":true,"sidebar":false,"scrollpercent":false},"bookmark":{"enable":false,"color":"#222","save":"auto"},"fancybox":false,"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"algolia":{"hits":{"per_page":10},"labels":{"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}},"localsearch":{"enable":true,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},"motion":{"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},"path":"search.xml"};
   </script>
 
   <meta name="description" content="一切都是最好的安排">
@@ -103,6 +103,7 @@
 
   <div class="site-nav-right">
     <div class="toggle popup-trigger">
+        <i class="fa fa-search fa-fw fa-lg"></i>
     </div>
   </div>
 </div>
@@ -117,16 +118,73 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>首页</a>
 
   </li>
+        <li class="menu-item menu-item-about">
+
+    <a href="/about/" rel="section"><i class="fa fa-user fa-fw"></i>关于</a>
+
+  </li>
+        <li class="menu-item menu-item-tags">
+
+    <a href="/tags/" rel="section"><i class="fa fa-tags fa-fw"></i>标签</a>
+
+  </li>
+        <li class="menu-item menu-item-categories">
+
+    <a href="/categories/" rel="section"><i class="fa fa-th fa-fw"></i>分类</a>
+
+  </li>
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>归档</a>
 
   </li>
+        <li class="menu-item menu-item-mypage">
+
+    <a href="/mypage/" rel="section"><i class="fa fa-sitemap fa-fw"></i>异次元</a>
+
+  </li>
+        <li class="menu-item menu-item-schedule">
+
+    <a href="/schedule/" rel="section"><i class="fa fa-calendar fa-fw"></i>日程表</a>
+
+  </li>
+        <li class="menu-item menu-item-sitemap">
+
+    <a href="/sitemap.xml" rel="section"><i class="fa fa-sitemap fa-fw"></i>站点地图</a>
+
+  </li>
+      <li class="menu-item menu-item-search">
+        <a role="button" class="popup-trigger"><i class="fa fa-search fa-fw"></i>搜索
+        </a>
+      </li>
   </ul>
 </nav>
 
 
 
+  <div class="search-pop-overlay">
+    <div class="popup search-popup">
+        <div class="search-header">
+  <span class="search-icon">
+    <i class="fa fa-search"></i>
+  </span>
+  <div class="search-input-container">
+    <input autocomplete="off" autocapitalize="off"
+           placeholder="搜索..." spellcheck="false"
+           type="search" class="search-input">
+  </div>
+  <span class="popup-btn-close">
+    <i class="fa fa-times-circle"></i>
+  </span>
+</div>
+<div id="search-result">
+  <div id="no-result">
+    <i class="fa fa-spinner fa-pulse fa-5x fa-fw"></i>
+  </div>
+</div>
+
+    </div>
+  </div>
 
 </div>
     </header>
@@ -145,6 +203,82 @@
 
           <div class="content index posts-expand">
             
+      
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block" lang="zh-CN">
+    <link itemprop="mainEntityOfPage" href="http://shenmidaima.cn/2020/10/22/%E6%97%A5%E8%AE%B0/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="XBY">
+      <meta itemprop="description" content="一切都是最好的安排">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="SHENMIDAIMA">
+    </span>
+      <header class="post-header">
+        <h2 class="post-title" itemprop="name headline">
+          
+            <a href="/2020/10/22/%E6%97%A5%E8%AE%B0/" class="post-title-link" itemprop="url">日记</a>
+        </h2>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-calendar"></i>
+              </span>
+              <span class="post-meta-item-text">发表于</span>
+              
+
+              <time title="创建时间：2020-10-22 22:03:14 / 修改时间：23:14:13" itemprop="dateCreated datePublished" datetime="2020-10-22T22:03:14+08:00">2020-10-22</time>
+            </span>
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="far fa-folder"></i>
+              </span>
+              <span class="post-meta-item-text">分类于</span>
+                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
+                  <a href="/categories/%E6%97%A5%E8%AE%B0/" itemprop="url" rel="index"><span itemprop="name">日记</span></a>
+                </span>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="又是失眠"><a href="#又是失眠" class="headerlink" title="又是失眠"></a>又是失眠</h1><p>大晚上买了瓶咖啡，喝完还真给力，硬是到三点都精神得很。第二天除了刚起来坐地铁困，其余时间也是很精神。<br>不过失眠也很有意思，总会出现一些有趣的想法。昨天晚上就用便签记录下来了。那时觉得非记录下来不可，现在看着这些想法，莫名有点羞耻。</p>
+<h2 id="1-想在哪想"><a href="#1-想在哪想" class="headerlink" title="1. 想在哪想"></a>1. 想在哪想</h2><p>解释：思想在哪想，思想就在哪。<br>描述一种感觉，想象自己大脑在胸腔，想象胸腔的大脑在思考。（我只知道我当时是实现了，现在应该是找不到那种感觉了）（想起来是憋气加部分肌肉用力造成的错觉，我思考的时候总是可以控制绷紧神经，这感觉和肌肉收缩的感觉类似，以在思考的时候胸部肌肉绷紧以及憋气，导致大脑在胸腔右侧的错觉）</p>
+<h2 id="2-喷嚏超人"><a href="#2-喷嚏超人" class="headerlink" title="2. 喷嚏超人"></a>2. 喷嚏超人</h2><p>我jojo,我qioqio有一个梦想，那就是实现全体免疫。<br>替身触发条件：打喷嚏<br>替身功能：传播病毒细菌，属于超微小替身（继续编）</p>
+<h2 id="3-大脑在右，心脏在左"><a href="#3-大脑在右，心脏在左" class="headerlink" title="3. 大脑在右，心脏在左"></a>3. 大脑在右，心脏在左</h2><p>流动的大脑，或者虚拟的大脑，你把它创建在你身体的哪里，就会有相应的功能增强。在心脏旁边，占用一半的肺，所以需要火之呼吸加上强劲的心脏供氧，血流所带来的对大脑的冲击使大脑更加兴奋，使你获得超频的体验，有机会进入不同的次元。</p>
+<h2 id="4-空脑高脚杯，矮脚杯"><a href="#4-空脑高脚杯，矮脚杯" class="headerlink" title="4. 空脑高脚杯，矮脚杯"></a>4. 空脑高脚杯，矮脚杯</h2><p>透明杯身，杯子颈部接着人身，一双脚。（我也许是个矮脚杯，以后可以补充一张画）</p>
+<h2 id="5-大脑漏斗灌输高脚杯"><a href="#5-大脑漏斗灌输高脚杯" class="headerlink" title="5. 大脑漏斗灌输高脚杯"></a>5. 大脑漏斗灌输高脚杯</h2><p>人体漏斗，从上往下做玻璃棒引流实现过滤。形状类似高脚杯。</p>
+<h2 id="6-视频模仿秀，反差吾辈楷模"><a href="#6-视频模仿秀，反差吾辈楷模" class="headerlink" title="6. 视频模仿秀，反差吾辈楷模"></a>6. 视频模仿秀，反差吾辈楷模</h2><p>你单身吗？<br>–你是瞧不起单身吗？你笑个屁啊笑（实际抱大腿求饶状务必加我微信）<br>加我微信先后我玩个游戏，赢了就加。<br>–比赛谁把鞋子甩的远，你先来！然后耍赖。</p>
+<h2 id="7-大部分时间在模仿"><a href="#7-大部分时间在模仿" class="headerlink" title="7. 大部分时间在模仿"></a>7. 大部分时间在模仿</h2><p>信息泛滥，把模仿多用在兴趣上。</p>
+<hr>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
       
   
   
@@ -384,10 +518,16 @@
                 <i class="far fa-calendar"></i>
               </span>
               <span class="post-meta-item-text">发表于</span>
-              
 
-              <time title="创建时间：2020-09-14 14:10:39 / 修改时间：18:03:30" itemprop="dateCreated datePublished" datetime="2020-09-14T14:10:39+08:00">2020-09-14</time>
+              <time title="创建时间：2020-09-14 14:10:39" itemprop="dateCreated datePublished" datetime="2020-09-14T14:10:39+08:00">2020-09-14</time>
             </span>
+              <span class="post-meta-item">
+                <span class="post-meta-item-icon">
+                  <i class="far fa-calendar-check"></i>
+                </span>
+                <span class="post-meta-item-text">更新于</span>
+                <time title="修改时间：2020-10-24 14:32:09" itemprop="dateModified" datetime="2020-10-24T14:32:09+08:00">2020-10-24</time>
+              </span>
 
           
 
@@ -402,87 +542,14 @@
       
           <h1 id="一级"><a href="#一级" class="headerlink" title="一级"></a>一级</h1><h2 id="二级"><a href="#二级" class="headerlink" title="二级"></a>二级</h2><h3 id="三级"><a href="#三级" class="headerlink" title="三级"></a>三级</h3><h4 id="四级"><a href="#四级" class="headerlink" title="四级"></a>四级</h4><h5 id="五级"><a href="#五级" class="headerlink" title="五级"></a>五级</h5><h1 id="一级标题"><a href="#一级标题" class="headerlink" title="一级标题"></a>一级标题</h1><h2 id="二级标题"><a href="#二级标题" class="headerlink" title="二级标题"></a>二级标题</h2><hr>
 <h2 id="段落"><a href="#段落" class="headerlink" title="段落"></a>段落</h2><p>段落的编写直接写，换行是两个空格加回车。<br>段落二XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX。  </p>
-<p>段落三。</p>
-<hr>
-<h2 id="字体"><a href="#字体" class="headerlink" title="字体"></a>字体</h2><p><em>斜体文本</em><br><strong>粗体文本</strong><br><strong><em>粗斜体文本</em></strong></p>
-<hr>
-<h2 id="以下为分界线"><a href="#以下为分界线" class="headerlink" title="以下为分界线"></a>以下为分界线</h2><hr>
-<p><del>加波浪线表示该段文字删除</del><br><u>html标签u加下划线</u></p>
-<hr>
-<h2 id="无序列表"><a href="#无序列表" class="headerlink" title="无序列表"></a>无序列表</h2><ul>
-<li>第一项</li>
-<li>第二项</li>
-<li>第三项</li>
-</ul>
-<hr>
-<h2 id="有序列表"><a href="#有序列表" class="headerlink" title="有序列表"></a>有序列表</h2><ol>
-<li>第一项<ul>
-<li>第一项</li>
-<li>第二项</li>
-</ul>
-</li>
-<li>第二项</li>
-<li>第三项</li>
-</ol>
-<hr>
-<h2 id="区块到底用来干啥？"><a href="#区块到底用来干啥？" class="headerlink" title="区块到底用来干啥？"></a>区块到底用来干啥？</h2><blockquote>
-<p>区块</p>
-</blockquote>
-<ol>
-<li>第一</li>
-<li>第二<blockquote>
-<blockquote>
-<p>区块二</p>
-<blockquote>
-<p>区块三<br> 这是第三区块。</p>
-</blockquote>
-</blockquote>
-</blockquote>
-</li>
-</ol>
-<hr>
-<h2 id="代码按TAB键"><a href="#代码按TAB键" class="headerlink" title="代码按TAB键"></a>代码按TAB键</h2><pre><code>public void main()&#123;
-    syso(&quot;java&quot;);
-&#125;</code></pre>
-<hr>
-<h2 id="链接用中括号接小括号，小括号里放网址"><a href="#链接用中括号接小括号，小括号里放网址" class="headerlink" title="链接用中括号接小括号，小括号里放网址"></a>链接用中括号接小括号，小括号里放网址</h2><p>这是一个链接<a target="_blank" rel="noopener" href="https://www.runoob.com/markdown/md-link.html">Markdowm</a>。<br>直接用尖括号包含网址<a target="_blank" rel="noopener" href="http://www.baidu.com/">http://www.baidu.com/</a><br>这个链接用 1 作为网址变量,都用中括号包裹 <a target="_blank" rel="noopener" href="http://www.baidu.com/">baidu</a><br>这个链接用 runoob 作为网址变量 <a target="_blank" rel="noopener" href="http://www.runoob.com/">Runoob</a><br>然后在文档的结尾为变量赋值（网址），用变量中括号包裹，接一个冒号，再接网址。</p>
-<hr>
-<h2 id="图片"><a href="#图片" class="headerlink" title="图片"></a>图片</h2><ol>
-<li>使用感叹号，中括号加小括号<br><img src="http://static.runoob.com/images/runoob-logo.png" alt="runoob"></li>
-<li>使用html_img标签<img src='http://static.runoob.com/images/runoob-logo.png' width='50%'>
-
-</li>
-</ol>
-<hr>
-<h2 id="表格用竖线和减号"><a href="#表格用竖线和减号" class="headerlink" title="表格用竖线和减号"></a>表格用竖线和减号</h2><p><strong>减号用来分隔表头和单元格，表格上方要空一行</strong></p>
-<table>
-<thead>
-<tr>
-<th>表头</th>
-<th>表头二</th>
-<th>表头</th>
-<th>表头二</th>
-</tr>
-</thead>
-<tbody><tr>
-<td>单元格</td>
-<td>单元格</td>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-<tr>
-<td>单元格</td>
-<td>单元格</td>
-<td>单元格</td>
-<td>单元格</td>
-</tr>
-</tbody></table>
-<hr>
-<h2 id="支持HTML元素"><a href="#支持HTML元素" class="headerlink" title="支持HTML元素"></a>支持HTML元素</h2><ol>
-<li>转义字符<br>用反斜杠\来转义。</li>
-<li>支持目前支持的 HTML 元素有：&lt;kbd&gt; &lt;b&gt; &lt;i&gt; &lt;em&gt; &lt;sup&gt; &lt;sub&gt; &lt;br&gt;等 </li>
-</ol>
-
+          <!--noindex-->
+            <div class="post-button">
+              <a class="btn" href="/2020/09/14/firstBlog/#more" rel="contents">
+                阅读全文 &raquo;
+              </a>
+            </div>
+          <!--/noindex-->
+        
       
     </div>
 
@@ -625,6 +692,8 @@
 
       <div class="site-overview-wrap sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+    <img class="site-author-image" itemprop="image" alt="XBY"
+      src="/images/avatar.gif">
   <p class="site-author-name" itemprop="name">XBY</p>
   <div class="site-description" itemprop="description">一切都是最好的安排</div>
 </div>
@@ -633,9 +702,15 @@
       <div class="site-state-item site-state-posts">
           <a href="/archives/">
         
-          <span class="site-state-item-count">5</span>
+          <span class="site-state-item-count">6</span>
           <span class="site-state-item-name">日志</span>
         </a>
+      </div>
+      <div class="site-state-item site-state-categories">
+            <a href="/categories/">
+          
+        <span class="site-state-item-count">1</span>
+        <span class="site-state-item-name">分类</span></a>
       </div>
       <div class="site-state-item site-state-tags">
         <span class="site-state-item-count">1</span>
@@ -674,6 +749,16 @@
   <div class="powered-by">由 <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> & <a href="https://mist.theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Mist</a> 强力驱动
   </div>
 
+<div>
+<script async src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
+<span id="busuanzi_container_site_pv" style='display:none'>
+    自己刷访问量 <span id="busuanzi_value_site_pv"></span> 次
+    <span class="post-meta-divider">|</span>
+</span>
+<span id="busuanzi_container_site_uv" style='display:none'>
+    估计有<span id="busuanzi_value_site_uv"></span>人瞄了一眼
+</span>
+</div>
         
 
 
@@ -708,6 +793,10 @@
   
 
 
+
+
+  
+<script src="/js/local-search.js"></script>
 
 
 

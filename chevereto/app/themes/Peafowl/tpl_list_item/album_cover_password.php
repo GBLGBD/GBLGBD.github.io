@@ -1,1 +1,0 @@
-<span class="empty icon icon-lock2"></span>
